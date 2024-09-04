@@ -11,17 +11,18 @@ This SQL project is part of the Bootcamp at CodeBasics. The project involves per
 • Excel - For visualization <br>
 
 ## Company Background and Problem Statement<br>
-AtliQ hardware is a company which has grown vastly in the recent years and is all over the globe. Company specializes in selling computer hardware and related products through three channels i.e Retailers, Direct and Distributors. <br>
+AtliQ Hardware is a company which has grown vastly in recent years and is all over the globe. The company specializes in selling computer hardware and related products through three channels i.e. Retailers, Direct and Distributors. <br>
 <br>
-Excel is a common and accessible way for individuals and businesses to analyze and visualize data. Despite of having wide range of tools and functions for performing basic to advanced data analysis tasks but on the same hand working with large Excel files can be slow and unresponsive, often crashing or freezing during use. The struggle with handling extensive datasets leads to performance issues and data corruption risks.  <br>
+Excel is a common and accessible way for individuals and businesses to analyze and visualize data. Despite having a wide range of tools and functions for performing basic to advanced data analysis tasks, working with large Excel files can be slow and unresponsive, often crashing or freezing during use. The struggle with handling extensive datasets leads to performance issues and data corruption risks.  <br>
 <br>
-In this project, I utilized SQL to address the limitations of Excel to handle and analyze vast datasets. This enables the generation of required reports and extracts valuable insights, leading to enhanced company's operational efficiency.
+In this project, I utilized SQL to address the limitations of Excel in handling and analyzing vast datasets. This enables the generation of required reports and extracts valuable insights, leading to enhanced company operational efficiency.
 
 ## Project Structure <br>
 
 The project is organized as follows: 
 
-• SQL Queries: Contains the SQL queries
+• _[SQL Queries](https://github.com/tyagi-mansi11/Finance_Analytics/blob/306688d1877235162696adc7ef841ef9370e73c4/SQL%20Queries.pdf)_: Contains the SQL queries   <br>
+• _[Finance Analytics](https://github.com/tyagi-mansi11/Finance_Analytics/blob/306688d1877235162696adc7ef841ef9370e73c4/Finance_Analytics.pdf)_: Contains ppt of the project
 
 The following reports are generated:
 
@@ -32,6 +33,7 @@ The following reports are generated:
 [5] Net sales % share by Customers <br>
 [6] Net sales % share by different Regions <br>
 [7] Top 2 markets in every region by their gross sales for a given fiscal year <br>
+[8] Top 2 products per Division by their sold quantity for a given fiscal year <br>
 
 
 
@@ -39,16 +41,20 @@ The following reports are generated:
 <pre>
 [1] dim_customer
      • 27 distinct markets (ex India, USA)
-     • 75 distinct customers thorough out the market
+     • 75 distinct customers throughout the market
      • Two types of platforms:
           • Brick & Motors - Physical/offline store
           • E-commerce - Online Store 
      • Three channels: Retailer, Direct, Distributors <br>
      
 [2] dim_market
-     • 27 distinct markets (ex India, USA, spain)
+     • 27 distinct markets (ex India, USA, Spain)
      • 7 sub-zones
-     • 4 regions i.e APAC, EU, nan, LATAM  <br>
+     • 4 regions i.e APAC, EU, NA, LATAM  <br>
+          APAC- Asia Pacific
+            EU- European Union
+            NA- North American
+         LATAM- Latin America
      
 [3] dim_product
     • Divisions
@@ -63,7 +69,7 @@ Contains the value of forecast quantity values for each customer.
 Contains the value of sold quantity.
 
 [6] fact_freight_cost
-The details of travel cost and other cost for each market with fiscal year.
+The details of travel costs and other costs for each market with the fiscal year.
   
 [7] fact_gross_price
 The details of gross prices with product code.
