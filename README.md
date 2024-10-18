@@ -87,7 +87,7 @@ The details of post-invoice deductions and other deductions.
 
 As per the requirements in the project following function, views and stored procedures are created <br>
 <br>
-<img src="https://github.com/tyagi-mansi11/img/blob/2d2acf75e3d302df308efabbb4fef1e72f017772/Screenshot%202024-09-02%20230251.png"  width="350" height="300">
+<img src="https://github.com/tyagi-mansi11/Finance_Analytics/blob/d16442247f8aedd69fef80d19715b90589717365/img.png"  width="350" height="300">
 
 ## Learnings
 
