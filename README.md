@@ -2,7 +2,7 @@
 
 ## Project Overview <br>
 
-This SQL project is part of the Bootcamp at CodeBasics. The project involves performing financial analytics on Atliq hardware's data. The primary objective is to create required reports and extract valuable insights.
+The project involves performing financial analytics on Atliq hardware's data. The primary objective is to create required reports and extract valuable insights.
 <br>
 
 ## Teach Stacks <br>
